@@ -1,18 +1,18 @@
 body{
-text-align: center;
+text-align: center;    
   background: linear-gradient(#833ab4 0% , #fd1d1d 50% , #fcb045 100%);
-  background-repeat:no-repeat;  
+  background-repeat:no-repeat; 
+    
 }
 img{
   border-style:solid;
  border-radius: 50%;
   width:100px;
-    text-align:center;
 }
 h1{
-  font-family: cursive;
+ font-family: 'Dancing Script', cursive;;
 text-shadow: 4px 3px 6px rgba(28, 0, 0, 1);
-  font-size:20px;
+  font-size:30px;
 }
 #bio {
   padding:50px;
@@ -51,6 +51,25 @@ list-style: none;
     background-color: lime;
 }
 #name{
-font-family: 'Cinzel Decorative', cursive;
+font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 color: gold;
+}
+ 
+p{
+ font-size: 25px;
+    font-family: sans-serif;
+}
+html{
+scroll-behavior: smooth;    
+}
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;    
 }
