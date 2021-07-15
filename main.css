@@ -31,29 +31,24 @@ h1 {
 }
 
 .menu {
-    list-style: none;
-    font-family: cursive;
-    float: right;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    color: black;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .link {
-    background-color: papayawhip;
-    float: left;
-    color: dodgerblue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: cursive;
+   display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family:serif;
     font-size: 20px;
 }
 
 .link:hover {
-    background-color: lime;
+    font-size: 25px;
+ text-decoration: underline;
 }
 
 #name {
@@ -89,6 +84,28 @@ border-style: dashed;
 #ruskin_bond{
 border-radius: 0px;
 width:450px;    
+}
+a{
+ text-decoration: none;
+    color:azure;
+}
+#contact {
+    background: firebrick;
+}
+#work a {
+    text-decoration: underline !important;
+    text-shadow: none !important;
+    color: blue !important;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+    
 }
 img{
 transition: transform .2s;      
